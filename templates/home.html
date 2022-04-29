@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='data/design.css')}}">
+    <title>Genshin Helper</title>
+</head>
+<body>
+
+    <div id="header"><h1>Home</h1></div>
+
+    <nav id="nav">
+        <div id="navhome">
+        <a style="text-decoration:none" href="">
+            <img src="{{url_for('static', filename='icon/homeselected.png')}}" alt="Home" style="width:64px;height:64px;"/>
+            </a>
+    </div>
+    <div id="navchar">
+        <a id="50" style="text-decoration:none" href="characters">
+            </a>
+    </div>
+    <div id="navweap">
+        <a style="text-decoration:none" href="weapons">
+            <img src="{{url_for('static', filename='icon/weapons.png')}}" alt="Weapons" style="width:64px;height:64px;"/>
+            </a>
+    </div>
+    <div id="navarti">
+        <a style="text-decoration:none" href="artifacts">
+            <img src="{{url_for('static', filename='icon/artifacts.png')}}" alt="Artifacts" style="width:64px;height:64px;"/>
+            </a>
+    </div>
+    </nav>
+
+    <script>
+    if ({{ sibl }} == 1){
+     const charaicon = document.getElementById("50");
+     charaicon.innerHTML = '<img src="{{url_for('static', filename='icon/characters1.png')}}"alt="Characters" style="width:64px;height:64px;"/>';
+    } else {
+    const charaicon = document.getElementById("50");
+     charaicon.innerHTML = '<img src="{{url_for('static', filename='icon/characters2.png')}}"alt="Characters" style="width:64px;height:64px;"/>';
+    }
+    </script>
+
+        <div style="display: table-cell; text-align:center;">
+            <a style="text-decoration:none; color:black" href="artifacts">
+                <img src="{{url_for('static', filename='icon/artifacts.webp')}}"
+                 alt="Artifacts" style="width:64px;height:64px;"/>
+            <br>
+            Artifacts
+            </a>
+        </div>
+    </div>
+    </div>
+
+    <div style="width: 20%; display: table;">
+    <div style="display: table-row">
+        <div style="display: table-cell; text-align:center;">
+            <a style="text-decoration:none; color:black" href="">
+                <img src="{{url_for('static', filename='icon/primogem.webp')}}"
+                 alt="Placeholder" style="width:64px;height:64px;"/>
+            <br>
+            Placeholder
+            </a>
+        </div>
+        <div style="display: table-cell; text-align:center;">
+            <a style="text-decoration:none; color:black" href="">
+                <img src="{{url_for('static', filename='icon/primogem.webp')}}"
+                 alt="Placeholder" style="width:64px;height:64px;"/>
+            <br>
+            Placeholder
+            </a>
+        </div>
+        <div style="display: table-cell; text-align:center;">
+            <a style="text-decoration:none; color:black" href="">
+                <img src="{{url_for('static', filename='icon/primogem.webp')}}"
+                 alt="Placeholder" style="width:64px;height:64px;"/>
+            <br>
+            Placeholder
+            </a>
+        </div>
+    </div>
+    </div>
+
+    <div style="width: 20%; display: table;">
+    <div style="display: table-row">
+        <div style="display: table-cell; text-align:center;">
+            <a style="text-decoration:none; color:black" href="">
+                <img src="{{url_for('static', filename='icon/primogem.webp')}}"
+                 alt="Placeholder" style="width:64px;height:64px;"/>
+            <br>
+            Placeholder
+            </a>
+        </div>
+        <div style="display: table-cell; text-align:center;">
+            <a style="text-decoration:none; color:black" href="">
+                <img src="{{url_for('static', filename='icon/primogem.webp')}}"
+                 alt="Placeholder" style="width:64px;height:64px;"/>
+            <br>
+            Placeholder
+            </a>
+        </div>
+        <div style="display: table-cell; text-align:center;">
+            <a style="text-decoration:none; color:black" href="">
+                <img src="{{url_for('static', filename='icon/primogem.webp')}}"
+                 alt="Placeholder" style="width:64px;height:64px;"/>
+            <br>
+            Placeholder
+            </a>
+        </div>
+    </div>
+    </div>
+
+
+    <!-- no touchy touchy -->
+    <div id="bruh">
+        <br>
+    E
+
+    </div>
+
+    <div style="display: inline-block">
+        <br>
+    E
+
+    </div>
+    <!-- no touchy touchy -->
+
+
+
+</body>
+</html>

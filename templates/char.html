@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='data/design.css')}}">
+    <title>Characters</title>
+</head>
+<body>
+
+    <div id="header"><h1>Characters</h1></div>
+
+    <nav id="nav">
+        <div id="navhome">
+        <a style="text-decoration:none" href="{{ url_for('views.home') }}">
+            <img src="{{url_for('static', filename='icon/home.png')}}" alt="Home" style="width:64px;height:64px;"/>
+            </a>
+    </div>
+        <div id="navchar">
+        <a id="50" style="text-decoration:none" href="">
+            </a>
+    </div>
+    <div id="navweap">
+        <a style="text-decoration:none" href="{{ url_for('views.weapons') }}">
+            <img src="{{url_for('static', filename='icon/weapons.png')}}" alt="Weapons" style="width:64px;height:64px;"/>
+            </a>
+    </div>
+    <div id="navarti">
+        <a style="text-decoration:none" href="{{ url_for('views.artifacts') }}">
+            <img src="{{url_for('static', filename='icon/artifacts.png')}}" alt="Artifacts" style="width:64px;height:64px;"/>
+            </a>
+    </div>
+    </nav>
+
+    <script>
+    if ({{ sibl }} == 1){
+     const charaicon = document.getElementById("50");
+     charaicon.innerHTML = '<img src="{{url_for('static', filename='icon/characters1selected.png')}}"alt="Characters" style="width:64px;height:64px;"/>';
+    } else {
+    const charaicon = document.getElementById("50");
+     charaicon.innerHTML = '<img src="{{url_for('static', filename='icon/characters2selected.png')}}"alt="Characters" style="width:64px;height:64px;"/>';
+    }
+    </script>
+
+    <div>
+        <a style="text-decoration:none; color:black" href="Albedo">
+            <img src="{{url_for('static', filename='img/Albedo/icon.webp')}}"
+                 alt="Characters" style="width:64px;height:64px;"/>
+            <br>
+        Albedo
+        </a>
+    </div>
+    <div>Aloy</div>
+    <div>Amber</div>
+    <div>Arataki Itto</div>
+    <div>Barbara</div>
+    <div>Beidou</div>
+    <div>Bennett</div>
+    <div>Chongyun</div>
+    <div>Diluc</div>
+    <div>Diona</div>
+    <div>Eula</div>
+    <div>Fischl</div>
+    <div>Ganyu</div>
+    <div>Gorou</div>
+    <div>Hu Tao</div>
+    <div>Jean</div>
+    <div>Kaedehara Kazuha</div>
+    <div>Kaeya</div>
+    <div>Kamisato Ayaka</div>
+    <div>Kamisato Ayato</div>
+    <div>Keqing</div>
+    <div>Klee</div>
+    <div>Kujou Sara</div>
+    <div>Lisa</div>
+    <div>Mona</div>
+    <div>Ningguang</div>
+    <div>Noelle</div>
+    <div>Qiqi</div>
+    <div>Raiden Shogun</div>
+    <div>Razor</div>
+    <div>Rosaria</div>
+    <div>Sangonomiya Kokomi</div>
+    <div>Sayu</div>
+    <div>Shenhe</div>
+    <div>Sucrose</div>
+    <div>Tartaglia</div>
+    <div>Thoma</div>
+    <div>Traveler Anemo</div>
+    <div>Traveler Electro</div>
+    <div>Traveler Geo</div>
+    <div>Venti</div>
+    <div>Xiangling</div>
+    <div>Xiao</div>
+    <div>Xinyan</div>
+    <div>Xinqiu</div>
+    <div>Yae Miko</div>
+    <div>Yanfei</div>
+    <div>Yoimiya</div>
+    <div>Yunjin</div>
+    <div>Zhongli</div>
+</body>
+</html>

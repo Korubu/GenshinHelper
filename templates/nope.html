@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='data/design.css')}}">
+    <title>{{ name }}</title>
+</head>
+<body>
+    <p> {{ aftertext }} </p>
+
+
+    <p id="1"></p>
+
+    <script>
+    {{ command }} = "bruh"
+    if ({{ command }} == "bruh"){
+     const change = document.getElementById("1");
+     change.innerHTML = "<div>Kamisato Ayaka</div><div>Kamisato Ayato</div>";
+    }
+    </script>
+    <script>
+    {{ command2 }} = "bruh2"
+    if ({{ command2 }} == "bruh2"){
+     const change2 = document.getElementById("1");
+     change2.innerHTML = "<div>Traveler Anemo</div><div>Traveler Electro</div><div>Traveler Geo</div>";
+    }
+    </script>
+</body>
+</html>

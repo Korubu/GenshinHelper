@@ -1,0 +1,8 @@
+from flask import Flask
+from views import views
+
+main = Flask(__name__)
+main.register_blueprint(views, url_prefix="/home")
+
+if __name__ == '__main__':
+    main.run(debug=True, port=8000)
