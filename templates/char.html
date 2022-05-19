@@ -8,7 +8,7 @@
 </head>
 <body>
 
-    <div id="header"><h1>Characters</h1></div>
+    <div id="header"><h1 id="h1">Characters</h1></div>
 
     <nav id="nav">
         <div id="navhome">
@@ -42,62 +42,441 @@
     }
     </script>
 
-    <div>
+
+    <div id="container">
+
+        <div>
         <a style="text-decoration:none; color:black" href="Albedo">
             <img src="{{url_for('static', filename='img/Albedo/icon.webp')}}"
-                 alt="Characters" style="width:64px;height:64px;"/>
+                 alt="Characters" style="width:128px;height:128px;"/>
             <br>
         Albedo
         </a>
+        </div>
+
+        <div>
+        <a style="text-decoration:none; color:black" href="Aloy">
+            <img src="{{url_for('static', filename='img/Aloy/icon.webp')}}"
+                 alt="Characters" style="width:128px;height:128px;"/>
+            <br>
+        Aloy
+        </a>
+        </div>
+    <div>
+        <a style="text-decoration:none; color:black" href="Amber">
+            <img src="{{url_for('static', filename='img/Amber/icon.webp')}}"
+                 alt="Characters" style="width:128px;height:128px;"/>
+            <br>
+        Amber
+        </a>
     </div>
-    <div>Aloy</div>
-    <div>Amber</div>
-    <div>Arataki Itto</div>
-    <div>Barbara</div>
-    <div>Beidou</div>
-    <div>Bennett</div>
-    <div>Chongyun</div>
-    <div>Diluc</div>
-    <div>Diona</div>
-    <div>Eula</div>
-    <div>Fischl</div>
-    <div>Ganyu</div>
-    <div>Gorou</div>
-    <div>Hu Tao</div>
-    <div>Jean</div>
-    <div>Kaedehara Kazuha</div>
-    <div>Kaeya</div>
-    <div>Kamisato Ayaka</div>
-    <div>Kamisato Ayato</div>
-    <div>Keqing</div>
-    <div>Klee</div>
-    <div>Kujou Sara</div>
-    <div>Lisa</div>
-    <div>Mona</div>
-    <div>Ningguang</div>
-    <div>Noelle</div>
-    <div>Qiqi</div>
-    <div>Raiden Shogun</div>
-    <div>Razor</div>
-    <div>Rosaria</div>
-    <div>Sangonomiya Kokomi</div>
-    <div>Sayu</div>
-    <div>Shenhe</div>
-    <div>Sucrose</div>
-    <div>Tartaglia</div>
-    <div>Thoma</div>
-    <div>Traveler Anemo</div>
-    <div>Traveler Electro</div>
-    <div>Traveler Geo</div>
-    <div>Venti</div>
-    <div>Xiangling</div>
-    <div>Xiao</div>
-    <div>Xinyan</div>
-    <div>Xinqiu</div>
-    <div>Yae Miko</div>
-    <div>Yanfei</div>
-    <div>Yoimiya</div>
-    <div>Yunjin</div>
-    <div>Zhongli</div>
+    <div>
+        <a style="text-decoration:none; color:black" href="Arataki Itto">
+            <img src="{{url_for('static', filename='img/Arataki Itto/icon.webp')}}"
+                 alt="Characters" style="width:128px;height:128px;"/>
+            <br>
+        Arataki Itto
+        </a>
+    </div>
+    <div>
+        <a style="text-decoration:none; color:black" href="Barbara">
+            <img src="{{url_for('static', filename='img/Barbara/icon.webp')}}"
+                 alt="Characters" style="width:128px;height:128px;"/>
+            <br>
+        Barbara
+        </a>
+    </div>
+    <div>
+        <a style="text-decoration:none; color:black" href="Beidou">
+            <img src="{{url_for('static', filename='img/Beidou/icon.webp')}}"
+                 alt="Characters" style="width:128px;height:128px;"/>
+            <br>
+        Beidou
+        </a>
+    </div>
+    <div>
+        <a style="text-decoration:none; color:black" href="Bennett">
+            <img src="{{url_for('static', filename='img/Bennett/icon.webp')}}"
+                 alt="Characters" style="width:128px;height:128px;"/>
+            <br>
+        Bennett
+        </a>
+    </div>
+    <div>
+        <a style="text-decoration:none; color:black" href="Chongyun">
+            <img src="{{url_for('static', filename='img/Chongyun/icon.webp')}}"
+                 alt="Characters" style="width:128px;height:128px;"/>
+            <br>
+        Chongyun
+        </a>
+    </div>
+    <div>
+        <a style="text-decoration:none; color:black" href="Diluc">
+            <img src="{{url_for('static', filename='img/Diluc/icon.webp')}}"
+                 alt="Characters" style="width:128px;height:128px;"/>
+            <br>
+        Diluc
+        </a>
+    </div>
+    <div>
+        <a style="text-decoration:none; color:black" href="Diona">
+            <img src="{{url_for('static', filename='img/Diona/icon.webp')}}"
+                 alt="Characters" style="width:128px;height:128px;"/>
+            <br>
+        Diona
+        </a>
+    </div>
+    <div>
+        <a style="text-decoration:none; color:black" href="Eula">
+            <img src="{{url_for('static', filename='img/Eula/icon.webp')}}"
+                 alt="Characters" style="width:128px;height:128px;"/>
+            <br>
+        Eula
+        </a>
+    </div>
+    <div>
+        <a style="text-decoration:none; color:black" href="Fischl">
+            <img src="{{url_for('static', filename='img/Fischl/icon.webp')}}"
+                 alt="Characters" style="width:128px;height:128px;"/>
+            <br>
+        Fischl
+        </a>
+    </div>
+    <div>
+        <a style="text-decoration:none; color:black" href="Ganyu">
+            <img src="{{url_for('static', filename='img/Ganyu/icon.webp')}}"
+                 alt="Characters" style="width:128px;height:128px;"/>
+            <br>
+        Ganyu
+        </a>
+    </div>
+    <div>
+        <a style="text-decoration:none; color:black" href="Gorou">
+            <img src="{{url_for('static', filename='img/Gorou/icon.webp')}}"
+                 alt="Characters" style="width:128px;height:128px;"/>
+            <br>
+        Gorou
+        </a>
+    </div>
+    <div>
+        <a style="text-decoration:none; color:black" href="Hu Tao">
+            <img src="{{url_for('static', filename='img/Hu Tao/icon.webp')}}"
+                 alt="Characters" style="width:128px;height:128px;"/>
+            <br>
+        Hu Tao
+        </a>
+    </div>
+    <div>
+        <a style="text-decoration:none; color:black" href="Jean">
+            <img src="{{url_for('static', filename='img/Jean/icon.webp')}}"
+                 alt="Characters" style="width:128px;height:128px;"/>
+            <br>
+        Jean
+        </a>
+    </div>
+    <div>
+        <a style="text-decoration:none; color:black" href="Kaedehara Kazuha">
+            <img src="{{url_for('static', filename='img/Kaedehara Kazuha/icon.webp')}}"
+                 alt="Characters" style="width:128px;height:128px;"/>
+            <br>
+        Kaedehara Kazuha
+        </a>
+    </div>
+    <div>
+        <a style="text-decoration:none; color:black" href="Kaeya">
+            <img src="{{url_for('static', filename='img/Kaeya/icon.webp')}}"
+                 alt="Characters" style="width:128px;height:128px;"/>
+            <br>
+        Kaeya
+        </a>
+    </div>
+    <div>
+        <a style="text-decoration:none; color:black" href="Kamisato Ayaka">
+            <img src="{{url_for('static', filename='img/Kamisato Ayaka/icon.webp')}}"
+                 alt="Characters" style="width:128px;height:128px;"/>
+            <br>
+        Kamisato Ayaka
+        </a>
+    </div>
+    <div>
+        <a style="text-decoration:none; color:black" href="Kamisato Ayato">
+            <img src="{{url_for('static', filename='img/Kamisato Ayato/icon.webp')}}"
+                 alt="Characters" style="width:128px;height:128px;"/>
+            <br>
+        Kamisato Ayato
+        </a>
+    </div>
+    <div>
+        <a style="text-decoration:none; color:black" href="Keqing">
+            <img src="{{url_for('static', filename='img/Keqing/icon.webp')}}"
+                 alt="Characters" style="width:128px;height:128px;"/>
+            <br>
+        Keqing
+        </a>
+    </div>
+    <div>
+        <a style="text-decoration:none; color:black" href="Klee">
+            <img src="{{url_for('static', filename='img/Klee/icon.webp')}}"
+                 alt="Characters" style="width:128px;height:128px;"/>
+            <br>
+        Klee
+        </a>
+    </div>
+    <div>
+        <a style="text-decoration:none; color:black" href="Kujou Sara">
+            <img src="{{url_for('static', filename='img/Kujou Sara/icon.webp')}}"
+                 alt="Characters" style="width:128px;height:128px;"/>
+            <br>
+        Kujou Sara
+        </a>
+    </div>
+    <div>
+        <a style="text-decoration:none; color:black" href="Lisa">
+            <img src="{{url_for('static', filename='img/Lisa/icon.webp')}}"
+                 alt="Characters" style="width:128px;height:128px;"/>
+            <br>
+        Lisa
+        </a>
+    </div>
+    <div>
+        <a style="text-decoration:none; color:black" href="Mona">
+            <img src="{{url_for('static', filename='img/Mona/icon.webp')}}"
+                 alt="Characters" style="width:128px;height:128px;"/>
+            <br>
+        Mona
+        </a>
+    </div>
+    <div>
+        <a style="text-decoration:none; color:black" href="Ningguang">
+            <img src="{{url_for('static', filename='img/Ningguang/icon.webp')}}"
+                 alt="Characters" style="width:128px;height:128px;"/>
+            <br>
+        Ningguang
+        </a>
+    </div>
+    <div>
+        <a style="text-decoration:none; color:black" href="Noelle">
+            <img src="{{url_for('static', filename='img/Noelle/icon.webp')}}"
+                 alt="Characters" style="width:128px;height:128px;"/>
+            <br>
+        Noelle
+        </a>
+    </div>
+    <div>
+        <a style="text-decoration:none; color:black" href="Qiqi">
+            <img src="{{url_for('static', filename='img/Qiqi/icon.webp')}}"
+                 alt="Characters" style="width:128px;height:128px;"/>
+            <br>
+        Qiqi
+        </a>
+    </div>
+    <div>
+        <a style="text-decoration:none; color:black" href="Raiden Shogun">
+            <img src="{{url_for('static', filename='img/Raiden Shogun/icon.webp')}}"
+                 alt="Characters" style="width:128px;height:128px;"/>
+            <br>
+        Raiden Shogun
+        </a>
+    </div>
+    <div>
+        <a style="text-decoration:none; color:black" href="Razor">
+            <img src="{{url_for('static', filename='img/Razor/icon.webp')}}"
+                 alt="Characters" style="width:128px;height:128px;"/>
+            <br>
+        Razor
+        </a>
+    </div>
+    <div>
+        <a style="text-decoration:none; color:black" href="Rosaria">
+            <img src="{{url_for('static', filename='img/Rosaria/icon.webp')}}"
+                 alt="Characters" style="width:128px;height:128px;"/>
+            <br>
+        Rosaria
+        </a>
+    </div>
+    <div>
+        <a style="text-decoration:none; color:black" href="Sangonomiya Kokomi">
+            <img src="{{url_for('static', filename='img/Sangonomiya Kokomi/icon.webp')}}"
+                 alt="Characters" style="width:128px;height:128px;"/>
+            <br>
+        Sangonomiya Kokomi
+        </a>
+    </div>
+    <div>
+        <a style="text-decoration:none; color:black" href="Sayu">
+            <img src="{{url_for('static', filename='img/Sayu/icon.webp')}}"
+                 alt="Characters" style="width:128px;height:128px;"/>
+            <br>
+        Sayu
+        </a>
+    </div>
+    <div>
+        <a style="text-decoration:none; color:black" href="Shenhe">
+            <img src="{{url_for('static', filename='img/Shenhe/icon.webp')}}"
+                 alt="Characters" style="width:128px;height:128px;"/>
+            <br>
+        Shenhe
+        </a>
+    </div>
+    <div>
+        <a style="text-decoration:none; color:black" href="Sucrose">
+            <img src="{{url_for('static', filename='img/Sucrose/icon.webp')}}"
+                 alt="Characters" style="width:128px;height:128px;"/>
+            <br>
+        Sucrose
+        </a>
+    </div>
+    <div>
+        <a style="text-decoration:none; color:black" href="Tartaglia">
+            <img src="{{url_for('static', filename='img/Tartaglia/icon.webp')}}"
+                 alt="Characters" style="width:128px;height:128px;"/>
+            <br>
+        Tartaglia
+        </a>
+    </div>
+    <div>
+        <a style="text-decoration:none; color:black" href="Thoma">
+            <img src="{{url_for('static', filename='img/Thoma/icon.webp')}}"
+                 alt="Characters" style="width:128px;height:128px;"/>
+            <br>
+        Thoma
+        </a>
+    </div>
+    <div>
+        <a id="60" style="text-decoration:none; color:black" href="Traveler Anemo">
+        </a>
+        <a style="text-decoration:none; color:black" href="Traveler Anemo">
+        <br>
+        Traveler Anemo
+        </a>
+    </div>
+    <div>
+        <a id="70" style="text-decoration:none; color:black" href="Traveler Electro">
+        </a>
+        <a style="text-decoration:none; color:black" href="Traveler Electro">
+        <br>
+        Traveler Electro
+        </a>
+    </div>
+    <div>
+        <a id="80" style="text-decoration:none; color:black" href="Traveler Geo">
+        </a>
+        <a style="text-decoration:none; color:black" href="Traveler Geo">
+        <br>
+        Traveler Geo
+        </a>
+    </div>
+    <div>
+        <a style="text-decoration:none; color:black" href="Venti">
+            <img src="{{url_for('static', filename='img/Venti/icon.webp')}}"
+                 alt="Characters" style="width:128px;height:128px;"/>
+            <br>
+        Venti
+        </a>
+    </div>
+    <div>
+        <a style="text-decoration:none; color:black" href="Xiangling">
+            <img src="{{url_for('static', filename='img/Xiangling/icon.webp')}}"
+                 alt="Characters" style="width:128px;height:128px;"/>
+            <br>
+        Xiangling
+        </a>
+    </div>
+    <div>
+        <a style="text-decoration:none; color:black" href="Xiao">
+            <img src="{{url_for('static', filename='img/Xiao/icon.webp')}}"
+                 alt="Characters" style="width:128px;height:128px;"/>
+            <br>
+        Xiao
+        </a>
+    </div>
+    <div>
+        <a style="text-decoration:none; color:black" href="Xinqiu">
+            <img src="{{url_for('static', filename='img/Xinqiu/icon.webp')}}"
+                 alt="Characters" style="width:128px;height:128px;"/>
+            <br>
+        Xinqiu
+        </a>
+    </div>
+    <div>
+        <a style="text-decoration:none; color:black" href="Xinyan">
+            <img src="{{url_for('static', filename='img/Xinyan/icon.webp')}}"
+                 alt="Characters" style="width:128px;height:128px;"/>
+            <br>
+        Xinyan
+        </a>
+    </div>
+    <div>
+        <a style="text-decoration:none; color:black" href="Yae Miko">
+            <img src="{{url_for('static', filename='img/Yae Miko/icon.webp')}}"
+                 alt="Characters" style="width:128px;height:128px;"/>
+            <br>
+        Yae Miko
+        </a>
+    </div>
+    <div>
+        <a style="text-decoration:none; color:black" href="Yanfei">
+            <img src="{{url_for('static', filename='img/Yanfei/icon.webp')}}"
+                 alt="Characters" style="width:128px;height:128px;"/>
+            <br>
+        Yanfei
+        </a>
+    </div>
+    <div>
+        <a style="text-decoration:none; color:black" href="Yoimiya">
+            <img src="{{url_for('static', filename='img/Yoimiya/icon.webp')}}"
+                 alt="Characters" style="width:128px;height:128px;"/>
+            <br>
+        Yoimiya
+        </a>
+    </div>
+    <div>
+        <a style="text-decoration:none; color:black" href="Yunjin">
+            <img src="{{url_for('static', filename='img/Yunjin/icon.webp')}}"
+                 alt="Characters" style="width:128px;height:128px;"/>
+            <br>
+        Yunjin
+        </a>
+    </div>
+    <div>
+        <a style="text-decoration:none; color:black" href="Zhongli">
+            <img src="{{url_for('static', filename='img/Zhongli/icon.webp')}}"
+                 alt="Characters" style="width:128px;height:128px;"/>
+            <br>
+        Zhongli
+        </a>
+    </div>
+    </div>
+
+    <script>
+    if ({{ sibl }} == 1){
+     const charcon = document.getElementById("60");
+     charcon.innerHTML = '<img src="{{url_for('static', filename='img/Traveler Anemo/icon2.webp')}}"alt="Characters" style="width:128px;height:128px;"/>';
+    } else {
+     const charcon = document.getElementById("60");
+     charcon.innerHTML = '<img src="{{url_for('static', filename='img/Traveler Anemo/icon1.webp')}}"alt="Characters" style="width:128px;height:128px;"/>';
+    }
+    </script>
+
+    <script>
+    if ({{ sibl }} == 1){
+     const charcon1 = document.getElementById("70");
+     charcon1.innerHTML = '<img src="{{url_for('static', filename='img/Traveler Electro/icon2.webp')}}"alt="Characters" style="width:128px;height:128px;"/>';
+    } else {
+     const charcon1 = document.getElementById("70");
+     charcon1.innerHTML = '<img src="{{url_for('static', filename='img/Traveler Electro/icon1.webp')}}"alt="Characters" style="width:128px;height:128px;"/>';
+    }
+    </script>
+
+    <script>
+    if ({{ sibl }} == 1){
+     const charcon2 = document.getElementById("80");
+     charcon2.innerHTML = '<img src="{{url_for('static', filename='img/Traveler Geo/icon2.webp')}}"alt="Characters" style="width:128px;height:128px;"/>';
+    } else {
+     const charcon2 = document.getElementById("80");
+     charcon2.innerHTML = '<img src="{{url_for('static', filename='img/Traveler Geo/icon1.webp')}}"alt="Characters" style="width:128px;height:128px;"/>';
+    }
+    </script>
+
 </body>
 </html>

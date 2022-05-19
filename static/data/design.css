@@ -1,7 +1,7 @@
 body {
 margin-left: 94px;
 padding-left: 10px;
-background: #2F3136;
+background: #4f5a6b;
 }
 
 html nav {
@@ -12,17 +12,18 @@ box-sizing: border-box;
 
 #nav {
 position: fixed;
-left: 0;
-top: 0;
+left: 0.25%;
+top: 0.90%;
+bottom: 0.50%;
 width: 94px;
 height: 100%;
-background: #2F3136;
+background: #202226;
 border: 1px solid #99AAB5;
 margin: 0 auto;
 }
 
 #nav:before {
-background: #36393F;
+background: #black;
 border: 1px solid #99AAB5;
 position: absolute;
 top: 3px;
@@ -66,10 +67,59 @@ transform: translateY(-375%);
 }
 
 #header {
-left: 100px;
-top: 10px;
-width: 100%;
+top: 10%;
+color: #52545a;
+left: 90px;
+width: 98.90%;
 height: 75px;
-background: #2F3136;
+background: #202226;
 border: 1px solid #99AAB5;
+padding-left: 20px;
+font-size: 20px;
 }
+
+#h1 {
+position: relative;
+transform: translateY(-25%);
+}
+
+#container {
+border: 1px solid #99AAB5;
+background: #202226;
+width: 97.50%;
+overflow: hidden;
+margin: 20px auto;
+padding: 20px;
+}
+
+#container #box{
+	position: relative;
+	padding: 20px;
+	width: calc(500px - 30px);
+	height: calc(300px - 30px);
+	background: #52545a;
+	float: left;
+	margin: 50px;
+	box-sizing: border-box;
+	overflow: hidden;
+	border-radius: 10px;
+
+#container #box:hover{
+	position: relative;
+	padding: 20px;
+	width: calc(500px - 30px);
+	height: calc(300px - 30px);
+	background: #red;
+	float: left;
+	margin: 50px;
+	box-sizing: border-box;
+	overflow: hidden;
+	border-radius: 10px;
+
+
+
+
+
+
+
+
